@@ -26,13 +26,14 @@ export default function BrandLogo({ className = '', size = 'md' }: BrandLogoProp
       className={`group inline-flex items-center select-none transition-opacity hover:opacity-90 ${className}`}
     >
       <Image
-        src="/logo-ayuwn.png" // Reemplaza esto con el nombre de archivo exacto en tu carpeta public
-        alt="Ayüwn"
-        width={LOGO_WIDTH[size]}
-        height={LOGO_HEIGHT[size]}
-        className="object-contain transition-transform group-hover:scale-105"
-        priority
-      />
+  src="/logo-ayuwn.png"
+  alt="Ayüwn"
+  width={LOGO_WIDTH[size]}
+  height={LOGO_HEIGHT[size]}
+  style={{ width: 'auto', height: 'auto' }}
+  className={`object-contain transition-transform group-hover:scale-105 ${className}`}
+  priority
+/>
     </Link>
   );
 }
