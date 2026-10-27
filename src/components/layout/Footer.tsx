@@ -112,7 +112,7 @@ export default function Footer() {
 
               {/* Ubicación */}
               <a
-                href="https://maps.google.com/?q=Talca,Region+del+Maule,Chile"
+                href="https://www.google.com/maps?q=Ayuwn+Accesorios+-+Diez+Sur+148,+3462463+Talca,+Maule&ftid=0x9665c70053ee88e3:0x5eb56e1f4dedaae9&entry=gps&shh=CAE&lucs=,94297699,94231188,94280568,47071704,94218641,94282134,100799872,94286869&g_ep=CAISEjI2LjIxLjEuOTE3Mzg1NDY3MBgAINeCAypJLDk0Mjk3Njk5LDk0MjMxMTg4LDk0MjgwNTY4LDQ3MDcxNzA0LDk0MjE4NjQxLDk0MjgyMTM0LDEwMDc5OTg3Miw5NDI4Njg2OUICQ0w%3D&skid=55ee5213-3559-4a88-a4ce-586db922ec7d&g_st=ic"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-3 px-5 py-3 rounded-xl bg-[#8CC63F] text-white text-sm font-medium hover:brightness-110 active:scale-[0.98] transition-all"
