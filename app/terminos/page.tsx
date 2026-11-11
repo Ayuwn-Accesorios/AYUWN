@@ -16,33 +16,92 @@ export default function TerminosPage() {
       </p>
 
       <div className="space-y-6 text-sm text-ink/80 leading-relaxed">
-        <section className="bg-neutral-50 p-6 rounded-2xl border-l-4 border-brand space-y-2 shadow-sm">
+        
+        {/* 1. Generalidades */}
+        <section className="bg-neutral-50 p-6 rounded-2xl border-l-4 border-brand space-y-3 shadow-sm">
           <h2 className="text-lg font-bold text-ink">1. Generalidades</h2>
           <p>
-            Al realizar un pedido en <strong>[AYWN]</strong>, el cliente acepta los términos y condiciones aquí descritos. Nos reservamos el derecho de actualizar o modificar estos términos cuando sea necesario para mejorar el servicio.
+            ¡Bienvenida a Ayuwn! Queremos que tu experiencia sea sencilla y transparente. Al confirmar tu compra aceptas estas condiciones, que podremos actualizar para compras futuras, respetando siempre tus derechos.
           </p>
         </section>
 
-        <section className="bg-neutral-50 p-6 rounded-2xl border-l-4 border-brand space-y-2 shadow-sm">
-          <h2 className="text-lg font-bold text-ink">2. Precios y Disponibilidad</h2>
+        {/* 2. Precios y disponibilidad */}
+        <section className="bg-neutral-50 p-6 rounded-2xl border-l-4 border-brand space-y-3 shadow-sm">
+          <h2 className="text-lg font-bold text-ink">2. Precios y disponibilidad</h2>
           <p>
-            Todos los precios expuestos en nuestro sitio web corresponden a pesos chilenos (CLP) y están sujetos a disponibilidad de stock de telas y variantes. En caso de no contar con stock de algún insumo en particular, nos pondremos en contacto directamente vía WhatsApp.
+            Los precios están expresados en pesos chilenos (CLP) e incluyen los impuestos correspondientes. Los despachos se cobran por separado cuando aplican. Los productos están sujetos a stock; si surge un problema de disponibilidad, te contactaremos por WhatsApp para ofrecerte una solución.
           </p>
         </section>
 
-        <section className="bg-neutral-50 p-6 rounded-2xl border-l-4 border-brand space-y-2 shadow-sm">
-          <h2 className="text-lg font-bold text-ink">3. Envíos y Despachos</h2>
+        {/* 3. Envíos y despachos */}
+        <section className="bg-neutral-50 p-6 rounded-2xl border-l-4 border-brand space-y-3 shadow-sm">
+          <h2 className="text-lg font-bold text-ink">3. Envíos y despachos</h2>
+          <div>
+            <h3 className="font-semibold text-ink">Talca</h3>
+            <p className="mt-1">
+              Contamos con un punto de retiro y un punto de entrega sin costo, ambos con coordinación previa. El despacho a domicilio u otra dirección dentro de Talca tiene un costo desde $2.000, según la distancia, que informaremos antes de confirmar la compra. Se acuerda el día de entrega, pero no un horario exacto.
+            </p>
+          </div>
+          <div>
+            <h3 className="font-semibold text-ink mt-3">Regiones</h3>
+            <p className="mt-1">
+              Enviamos a todo Chile por Starken o Blue Express, bajo modalidad por pagar: el transporte lo paga la clienta al recibir o retirar la encomienda. La tarifa la fija el courier según destino, peso, medidas y valores vigentes al despacho; podemos orientar con un monto estimado antes de la compra. Entregamos el pedido al courier dentro de un máximo de 3 días hábiles desde la confirmación del pago, salvo un plazo de preparación diferente acordado previamente. El tiempo de traslado depende de la agencia y el destino.
+            </p>
+          </div>
+          <div>
+            <h3 className="font-semibold text-ink mt-3">Seguimiento</h3>
+            <p className="mt-1">
+              Empacamos cuidadosamente cada pedido. Si ocurre un atraso, extravío o daño durante el transporte, escríbenos por WhatsApp para ayudarte con el seguimiento y las gestiones que correspondan, sin perjuicio de tus derechos legales. Proporciona datos de contacto y dirección completos.
+            </p>
+          </div>
+        </section>
+
+        {/* 4. Cambios, devoluciones y garantía */}
+        <section className="bg-neutral-50 p-6 rounded-2xl border-l-4 border-brand space-y-3 shadow-sm">
+          <h2 className="text-lg font-bold text-ink">4. Cambios, devoluciones y garantía</h2>
           <p>
-            Es responsabilidad del cliente proporcionar la dirección de despacho o datos de contacto de manera clara y precisa. <strong>[AYWN]</strong> realiza despachos en Talca y envíos a regiones. Los costos de envío externo corren por cuenta del cliente a través del servicio de encomienda acordado.
+            Si un producto no era lo que esperabas, puedes solicitar su devolución dentro de los 10 días siguientes a su recepción, conforme al derecho a retracto cuando corresponda. Los accesorios deben estar sin uso, en buen estado y con sus elementos y embalajes originales en buen estado. Un pack se devuelve completo. Coordina el retorno por WhatsApp; los costos de retorno se asumirán según lo que corresponda legalmente.
+          </p>
+          <p>
+            Si aparece una falla de fabricación, la garantía legal aplicable es de 6 meses y permite optar por las soluciones que establece la ley. No cubre daños causados por mal uso o desgaste normal. Para solicitar atención, contáctanos por WhatsApp con tu comprobante y una descripción del problema.
           </p>
         </section>
 
-        <section className="bg-neutral-50 p-6 rounded-2xl border-l-4 border-brand space-y-2 shadow-sm">
-          <h2 className="text-lg font-bold text-ink">4. Cambios y Garantía</h2>
+        {/* 5. Compras y medios de pago */}
+        <section className="bg-neutral-50 p-6 rounded-2xl border-l-4 border-brand space-y-3 shadow-sm">
+          <h2 className="text-lg font-bold text-ink">5. Compras y medios de pago</h2>
           <p>
-            Dado que nuestros accesorios de cabello son productos de uso personal e higiénico, los cambios o devoluciones aplican únicamente en caso de fallas de fábrica dentro de los primeros 10 días desde la recepción del producto.
+            Elige tus productos en la tienda y finaliza el carrito: serás dirigida automáticamente a WhatsApp para completar la compra. El carrito y las consultas no reservan productos; la reserva se confirma con el pago. Aceptamos transferencias bancarias y los medios que te informemos durante la compra. Te confirmaremos por escrito el pedido y las condiciones acordadas.
           </p>
         </section>
+
+        {/* 6. Pedidos personalizados */}
+        <section className="bg-neutral-50 p-6 rounded-2xl border-l-4 border-brand space-y-3 shadow-sm">
+          <h2 className="text-lg font-bold text-ink">6. Pedidos personalizados</h2>
+          <p>
+            Los accesorios confeccionados especialmente según tus indicaciones requieren pago total anticipado. Antes del pago acordaremos por WhatsApp diseños, combinaciones, precio y plazo. En estos pedidos, cuando corresponda la excepción legal y esta haya sido informada previamente de manera destacada, no se aceptan cancelaciones ni devoluciones por simple cambio de opinión una vez confirmada la compra. Se mantienen los derechos frente a fallas o incumplimientos.
+          </p>
+        </section>
+
+        {/* 7. Compras mayoristas */}
+        <section className="bg-neutral-50 p-6 rounded-2xl border-l-4 border-brand space-y-3 shadow-sm">
+          <h2 className="text-lg font-bold text-ink">7. Compras mayoristas</h2>
+          <p>
+            Ofrecemos precios especiales desde 12 unidades de un mismo tipo de accesorio. Puedes elegir diseños y colores según disponibilidad. El pedido se confirma con pago total. Los plazos de preparación parten desde 5 días hábiles y pueden aumentar por cantidad o confección desde cero; siempre acordaremos el plazo antes del pago. En pedidos mayoristas para reventa, las devoluciones voluntarias por cambio de opinión se aceptan solo por el pedido completo, sin uso y en buen estado, sin limitar los derechos que correspondan por ley.
+          </p>
+        </section>
+
+        {/* 8. Privacidad y contacto */}
+        <section className="bg-neutral-50 p-6 rounded-2xl border-l-4 border-brand space-y-3 shadow-sm">
+          <h2 className="text-lg font-bold text-ink">8. Privacidad y contacto</h2>
+          <p>
+            Usamos tus datos de contacto y despacho para gestionar pedidos, pagos, entregas y consultas. Solo los compartimos cuando es necesario para prestar el servicio o cumplir obligaciones legales. Puedes escribirnos por nuestros canales oficiales para hacer consultas o ejercer los derechos que correspondan sobre tus datos. La información completa debe estar disponible en nuestra Política de Privacidad.
+          </p>
+          <p className="font-semibold text-ink pt-2 border-t border-neutral-200 mt-2">
+            Gracias por elegir Ayuwn. Celebra tu belleza. Abraza tu poder.
+          </p>
+        </section>
+
       </div>
     </main>
   );
